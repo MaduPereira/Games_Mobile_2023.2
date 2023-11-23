@@ -11,6 +11,7 @@ public class GameController_Dino : MonoBehaviour
     public Text contPecas;
     void Start()
     {
+        contFigures = 8;
         text1.SetActive(true);
         text2.SetActive(false);
     }
@@ -36,5 +37,6 @@ public class GameController_Dino : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(3);
+        contFigures = 8;
     }
 }

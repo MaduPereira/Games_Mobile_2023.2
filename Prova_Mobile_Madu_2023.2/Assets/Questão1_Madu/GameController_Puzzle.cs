@@ -11,6 +11,7 @@ public class GameController_Puzzle: MonoBehaviour
     public Text contPecas;
     void Start()
     {
+        contFigures = 12;
         text1.SetActive(true); 
         text2.SetActive(false);
     }
@@ -36,5 +37,6 @@ public class GameController_Puzzle: MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(2);
+        contFigures = 12;
     }
 }
