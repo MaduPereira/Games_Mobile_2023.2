@@ -7,5 +7,14 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: "Assets/Quest\xE3o1_Madu/Puzze_Questao1.unity"
+    guid: c95bf26c3133e6442b798a1de328dec2
+  - enabled: 1
+    path: "Assets/Quest\xE3o2_Madu/Puzze_Questao2.unity"
+    guid: 421f309a1a60ce342b598fc3e29ca524
+  - enabled: 1
+    path: "Assets/Quest\xE3o3_Madu/Animals_Questao3.unity"
+    guid: 15a11977e5f374141aab95dbdfc48d10
   m_configObjects: {}

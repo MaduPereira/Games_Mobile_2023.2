@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameController_Dino : MonoBehaviour
@@ -27,6 +28,13 @@ public class GameController_Dino : MonoBehaviour
         {
             text1.SetActive(false);
             text2.SetActive(true);
+            StartCoroutine(timePass());
         }
+    }
+
+    IEnumerator timePass()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(3);
     }
 }
