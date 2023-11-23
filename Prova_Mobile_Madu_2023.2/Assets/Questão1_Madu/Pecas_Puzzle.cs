@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pecas2_Quebracabeca : MonoBehaviour
+public class Pecas_Puzzle : MonoBehaviour
 {
     public bool isDragging = false;
     private Vector3 startPosition;
@@ -40,7 +40,7 @@ public class Pecas2_Quebracabeca : MonoBehaviour
                         toaqui = true;
                         transform.position = alvo.gameObject.transform.position; // Se estiver, fixar a posição
                         this.transform.localScale = alvo.transform.localScale;
-                        GameController_QuebraCabeca.contFigures--;
+                        GameController_Puzzle.contFigures--;
                         this.enabled = false;
                         return; // Sair do loop e encerrar a função
                     }

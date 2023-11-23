@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameController_QuebraCabeca : MonoBehaviour
+public class GameController_Puzzle: MonoBehaviour
 {
     public GameObject text1, text2;
-    public static int contFigures = 8;
+    public static int contFigures = 12;
     public Text contPecas;
     void Start()
     {
